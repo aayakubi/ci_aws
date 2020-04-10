@@ -9,7 +9,7 @@ env:
   EB_APPLICATION_NAME       : "app_hub"
   EB_ENVIRONMENT_NAME       : "apptest"
   DEPLOY_PACKAGE_NAME       : "application_ver${{ github.sha }}.zip"
-  AWS_REGION_NAME           : "us-east-2"
+  AWS_REGION_NAME           : "us-east-2c"
 
 on: 
   push:
